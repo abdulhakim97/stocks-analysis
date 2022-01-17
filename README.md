@@ -6,12 +6,15 @@
 
 #Results: 
 With the first logical code the overall run time of the 2018 execution was so much slower than the new refraction code. 
+
 <img width="143" alt="image" src="https://user-images.githubusercontent.com/96555487/149686590-e9ce5362-8217-4317-badc-6637dd03be5a.png">
 
 With the updated code the overall run time of the execution was so much faster, in fact there was a notable difference of lag between them.
+
 <img width="126" alt="image" src="https://user-images.githubusercontent.com/96555487/149686610-be6fd008-fc4c-4124-9cdb-bc36c47b6fc7.png">
 
 The difference of code was the new variables and for loops being run in the new refraction code. The first variable made was the tickerIndex in which we set it to zero in order to use it for 4 different arrays in the later steps. Another major difference was the 4 different arrays that held specific data type. This gave the code less memory to use which helped the program run much faster.
+
 <img width="419" alt="image" src="https://user-images.githubusercontent.com/96555487/149686662-6af945e5-5277-4169-b6c2-9a71bda8859d.png">
 
 The same was done with the tickerVolume in order to initialize it for the dataset. The main difference between the two code is how the tickerIndex is being used as the variable for the rest of the iteration in order to quickly access the other arrays. The if-then conditional is relatively the same for both code.  
